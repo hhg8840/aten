@@ -4,7 +4,9 @@ import os
 import datetime
 now_path = os.path.dirname(os.path.abspath(__file__))
 
-MEMBERID = 'qvT5WRfwGTIM4%2blHdntqxNOchxaLrc%2bl0DQo0KKs9seu%2fJSk%2fUA6m1rrCqTPvcWH'
+# MEMBERID = 'qvT5WRfwGTIM4%2blHdntqxNOchxaLrc%2bl0DQo0KKs9seu%2fJSk%2fUA6m1rrCqTPvcWH'
+MEMBERID = 'dA%2fvUM1ICwqLw6PFeJq1rBJpvqKsXGUEE7PNjr5f%2b0RYTUYauxasC0vkBD4bzqwW'
+
 
 CAMPAIGN_DICT = dict()
 CAMPAIGN_DICT['CLICK'] = '128'          # 클릭형

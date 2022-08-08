@@ -4,7 +4,7 @@ const CupAd = () => {
     return (
         <div className="top_banner center">
             <iframe
-                src="https://ads-partners.coupang.com/widgets.html?id=495341&template=carousel&trackingCode=AF5219904&subId=&width=680&height=140"
+                src="https://ads-partners.coupang.com/widgets.html?id=566510&template=carousel&trackingCode=AF5174309&subId=&width=680&height=140"
                 width="100%"
                 height="140"
                 scrolling="no"
