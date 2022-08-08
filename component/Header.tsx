@@ -6,9 +6,9 @@ const Header = () => {
         <header className="Header">
             <div className="header_wrapper">
                 <Link href={"/home"}>
-                    <h2 style={{ cursor: "pointer" }}>소문내자</h2>
+                    <h2 style={{ cursor: "pointer" }}>소문봇</h2>
                 </Link>
-                <div>소문내자를 사랑해주셔서 오늘도 감사드려요!</div>
+                <div>소문봇을 사랑해주셔서 오늘도 감사드려요!</div>
             </div>
         </header>
     );

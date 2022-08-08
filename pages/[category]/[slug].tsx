@@ -16,7 +16,7 @@ const DetailPage = ({ pageData }) => {
             <Head>
                 <title>{ContentTitle}</title>
                 <meta name="description" content={ContentMemo} />
-                <meta property="og:site_name" content={"소문내자"} />
+                <meta property="og:site_name" content={"소문봇"} />
                 <meta property="og:type" content={"article"} />
                 <meta property="og:title" content={ContentTitle} />
                 <meta property="og:url" content={pageData.Link} />
@@ -57,7 +57,7 @@ const DetailPage = ({ pageData }) => {
                 <div className="page_article">
                     <p>안녕하세요! </p>
                     <p>
-                        도움이되는 소식을 빠르고 또 빠르게 가져다드리는 <b>소문내자</b>입니다
+                        도움이되는 소식을 빠르고 또 빠르게 가져다드리는 <b>소문봇</b>입니다
                     </p>
                     <p>
                         오늘은 <b>{pageData.ContentTitle}</b>을 소개합니다!
