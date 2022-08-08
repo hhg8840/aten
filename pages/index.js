@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <div>
             <Head>
-                <title>소문봇 - 잠시만 기다려주세요</title>
+                <title>텐픽 - 잠시만 기다려주세요</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
         </div>

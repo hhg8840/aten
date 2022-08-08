@@ -148,14 +148,14 @@ const ContentHome = ({ pageData }: ContentHomeProps) => {
 const Content = ({ pageData }) => {
     const router = useRouter();
 
-    const pageTitle = `소문봇 - ${topics[topics.findIndex((it) => it.link === router.asPath)].name.split(" ")[1]}`;
+    const pageTitle = `텐픽 - ${topics[topics.findIndex((it) => it.link === router.asPath)].name.split(" ")[1]}`;
     return (
         <Layout>
             <Head>
                 <title>{pageTitle}</title>
 
                 <meta name="description" content={pageTitle} />
-                <meta property="og:site_name" content={"소문봇"} />
+                <meta property="og:site_name" content={"텐픽"} />
                 <meta property="og:type" content={"article"} />
                 <meta property="og:title" content={pageTitle} />
                 <meta property="og:image" content={pageData.thumbnailUrl} />
